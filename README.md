@@ -1,2 +1,2 @@
 # teamers
-repository van nkijpma, dannymulder en  arookiecookie
+repository van nkijpma, DMulder en  arookiecookie

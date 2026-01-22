@@ -1,0 +1,80 @@
+:root{
+    /* Color Palette */
+    --Background-color: #0B1120;
+    --Card-color: #111827;
+    --Primary-Button-color: #F97316;
+    --Button-Hover-color: #EA580C;
+    --Text-Primary-color: #F9FAFB;
+    --Text-Secondary-color: #9CA3AF;
+    --Input-Border-color: #1F2937;
+
+    /* Font Sizes */
+    --Font-Size-Small: 0.875rem;
+    --Font-Size-Medium: 1rem;
+    --Font-Size-Large: 1.25rem;
+    --Font-Size-XLarge: 1.5rem;
+
+    /* Border Radius */
+    --Border-Radius-Small: 0.25rem;
+    --Border-Radius-Medium: 0.5rem;
+    --Border-Radius-Circle: 50%;
+}
+
+
+body {
+    background: var(--Background-color);
+    font-family: Arial, sans-serif;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--Card-color);
+    padding: 1.5rem;
+    width: 17.5rem;
+    border-radius: var(--Border-Radius-Medium);
+    color: var(--Text-Primary-color);
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.4);
+}
+
+.login-box h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: var(--Font-Size-Large);
+    text-align: center;
+}
+
+.login-box label {
+    font-size: var(--Font-Size-Small);
+    color: var(--Text-Secondary-color);
+}
+
+.login-box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.625rem;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: var(--Border-Radius-Small);
+    border: 0.0625rem solid var(--Input-Border-color);
+    background: #0F172A;
+    color: var(--Text-Primary-color);
+    font-size: var(--Font-Size-Medium);
+    display: block;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 0.625rem;
+    background: var(--Primary-Button-color);
+    border: none;
+    border-radius: var(--Border-Radius-Medium);
+    color: white;
+    font-size: var(--Font-Size-Medium);
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: var(--Button-Hover-color);
+}

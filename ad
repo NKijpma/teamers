@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Advertentie</title>
+    <link rel="stylesheet" href="ad.css">
+    <script src="Ad.js"></script>
+</head>
+<body>
+
+<div class="ad-box">
+    <img src="BlueBerryCat.webp" width="300" height="250">
+    <strong>Advertentie</strong>
+    <p>Koop nu deze blueberryCat 😎</p>
+    <button onclick="fakeAdClick()">Klik hier</button>
+</div>
+</body>
+</html>

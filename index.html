@@ -15,13 +15,23 @@
 
     <title>main login page</title>
 </head>
-<body>
-<div id="login-elements"></div>
-
     
-    <!-- Link naar de andere HTML-pagina -->
-    <!-- <a href="HTML/login_elements.html">Bekijk login-elementen</a> -->
+<body>
 
+<div class="login-box">
+    <h2>Inloggen</h2>
+    <form>
+        <label for="username">Gebruikersnaam</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Wachtwoord</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+    
 </body>
 </html>
+
 
